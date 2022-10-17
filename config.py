@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME", "BQAnmQu63mfTXANg62wBZHqdBYVF0AtRGul6fsLZBFaGVFUjaOAb33rYCpV7BVkvnuuUyNus6veJ7rLIChySORVnXyE8ezff-nAimXyqGQ22YWAv5TEarj4eyXl8n65zOg3qJaaqbKySldDI3zSRW4Z-Mkp6D1zA_6RWRoTDY38yTYVXE1oAlCEmwHP3rnypKXgB8O_w2fOJq12RfxFr3LRU7xi-L6U0sHH10YN6mtZYPBH0u-tcnNEELr3BCXCyU2ihax78M-Rk8D8N0F5zRWTH6ONYWS0WLBuWDKyXuptE-CiS1ezvV-cqDB8Tt-8ymxMzuaFS7xOJBh-zT6os7nAAAAAVBvmmYA.")
+SESSION_NAME = getenv("SESSION_NAME", "BQC0TJjR50U4in4eQmSHk2a7D5YDeYEdzuOZ5P4ae0DLzCOlNI7lWa6QMAIcTSxVlESJrKiT_fU7r5L1t5YeEmsvCM7XklQzdgNE_9hI1pNWm1te9OIXtpIgP9T-n7Fq71hU8y3IJORaB9DmZ-AmGlWS4gDY3BC4mGZZHq3lxXlEmvS1W2FB2vNob4nwj9ESqCgFE-oSYpoeA96X8VZ_bQHWrhUQkhsZDu_x2_jOrY1xmtDDNj5xAIPjiCEwysYpeYG9oZuZXGIbUJ8r3LCHa1RIb6lKINYGlWa_KRSvOObacu_vT7eG6FusjAQyWbvwvVQvJ2ajwZWFl2P7_b6l4LSxAAAAAUKVUL0A")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -40,13 +40,13 @@ API_ID = int(getenv("API_ID", "26505340"))
 API_HASH = getenv("API_HASH", "2c687333637c38602329de84aeb64baf")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://anon:anon@cluster0.7qv0pzk.mongodb.net/?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Opet")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "xflsal")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Juliiannnnn")
 ALIVE_NAME = getenv("ALIVE_NAME", "sal")
 BOT_USERNAME = getenv("BOT_USERNAME", "kucinggtapibot")
 OWNER_ID = getenv("OWNER_ID", "2061280554")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "˹ᴄᴀᴛ ꭙ ᴀssɪsᴛᴀɴᴛ˼")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "satpamhoeng")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "satpamhoeng")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "windtalkerr")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2061280554").split()))
