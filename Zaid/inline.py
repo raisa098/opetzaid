@@ -39,7 +39,7 @@ def menu_markup(user_id):
       InlineKeyboardButton(text="🔊", callback_data=f'cbunmute | {user_id}'),
     ],
     [
-      InlineKeyboardButton(text="🗑 Close", callback_data='cls'),
+      InlineKeyboardButton(text="•Close•", callback_data='cls'),
     ]
   ]
   return buttons
@@ -49,7 +49,7 @@ close_mark = InlineKeyboardMarkup(
   [
     [
       InlineKeyboardButton(
-        "🗑 Close", callback_data="cls"
+        "•Close•", callback_data="cls"
       )
     ]
   ]
